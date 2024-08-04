@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+   >
+
+
+    <TextView
+        android:id="@+id/top10Title"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The 10 Best Songs Used in Stranger Things"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allTimeRecyclerView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        />
+
+    <TextView
+        android:id="@+id/season4Title"
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Songs Used in Season Four"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/seasonfourRecyclerView"
+        android:layout_below="@+id/top10Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        />
+
+    <TextView
+        android:id="@+id/season3Title"
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Songs Used in Season Three"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/seasonthreeRecyclerView"
+        android:layout_below="@+id/top10Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        />
+
+    <TextView
+        android:id="@+id/season2Title"
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Songs Used in Season Two"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/seasontwoRecyclerView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        />
+
+    <TextView
+        android:id="@+id/season1Title"
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Songs Used in Season One"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/seasononeRecyclerView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

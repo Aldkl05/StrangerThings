@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and Secondary Colors -->
+    <color name="primaryColor">#0B0C10</color> <!-- Very dark shade -->
+    <color name="primaryDarkColor">#1F2833</color> <!-- Dark gray shade -->
+    <color name="accentColor">#66FCF1</color> <!-- Neon blue/cyan -->
+
+    <!-- Additional Theme Colors -->
+    <color name="backgroundColor">#121212</color> <!-- Very dark gray -->
+    <color name="textColor">#C5C6C7</color> <!-- Light gray for text -->
+    <color name="secondaryTextColor">#45A29E</color> <!-- Muted teal -->
+    <color name="errorColor">#C3073F</color> <!-- Deep red for error messages -->
+
+    <!-- Stranger Things Specific Colors -->
+    <color name="strangerThingsRed">#E50914</color> <!-- Netflix red -->
+    <color name="strangerThingsYellow">#FFCC00</color> <!-- Bright yellow for highlights -->
+
+    <!-- Optional Additional Colors -->
+    <color name="buttonColor">#1F2833</color> <!-- Dark gray for buttons -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White for button text -->
+    <color name="cardBackgroundColor">#2B2B2B</color> <!-- Dark gray for card backgrounds -->
+    <color name="dividerColor">#393E46</color> <!-- Darker shade for dividers -->
+</resources>

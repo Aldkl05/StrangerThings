@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary Theme Colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+        <!-- General UI Colors -->
+        <item name="android:background">@color/backgroundColor</item>
+        <item name="android:textColor">@color/strangerThingsRed</item>
+        <item name="android:fontFamily">@font/stranger_things</item>
+
+        <item name="toolbarStyle">@style/CustomToolbar</item>
+    </style>
+
+    <style name="CustomToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@color/strangerThingsRed</item> <!-- Change this to your desired color -->
+        <item name="subtitleTextColor">@color/secondaryTextColor</item>
+        <item name="android:fontFamily">@font/stranger_things </item><!-- Optional: Subtitle color -->
+    </style>
+    <!-- Text Appearances -->
+    <style name="TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily"> @font/stranger_things</item>
+        <item name="android:textColor">@color/strangerThingsRed</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/buttonColor</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+    <!-- CardView Styles -->
+    <style name="CardViewStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/cardBackgroundColor</item>
+    </style>
+
+    <!-- Divider Styles -->
+    <style name="DividerStyle">
+        <item name="android:background">@color/dividerColor</item>
+    </style>
+</resources>
